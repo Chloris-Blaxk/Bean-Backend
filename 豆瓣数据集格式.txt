@@ -1,0 +1,8 @@
+A.电影信息数据库
+movieInfo.db：
+共一张表，MovieInfo
+键名：movieID（primary key）, name, director, actor, genre, tag, summary, rate, popular
+
+B.评分数据集
+usrRate.txt：
+共3327个用户，28603部电影，389173个评分（包括none）。
