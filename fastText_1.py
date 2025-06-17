@@ -97,7 +97,7 @@ for cluster_id in range(num_clusters):
 
     # 保存类簇信息到文件，以便后续处理
     output_data = []
-    output_data.append(f"Cluster {cluster_id} - 主题标签: {', '.join(cluster_themes)}\n")
+    output_data.append(f"Cluster {cluster_id} - 主题标签: {', '.join(str(theme) for theme in cluster_themes)}\n")
     output_data.append("电影列表:\n")
 
     # 输出该聚类的电影名、标签和简介
